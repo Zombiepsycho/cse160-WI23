@@ -5,7 +5,7 @@
 
 This is the third part of a three part project implementing and optimizing the forward pass of a convolution layer using CUDA. Convolutional layers are the primary building blocks of convolutional neural networks (CNNs), which are used for tasks like image classification, object detection, natural language processing and recommendation systems. 
 
-You will be working with a modified version of the LeNet5 architceture shown bellow:
+You will be working with a modified version of the LeNet5 architecture shown below:
 
 ![LenetImage](https://lh5.googleusercontent.com/84RlneM7JSDYDirUr_ceplL4G3-Peyq5dkLJTe2f-3Bj9KuWZjsH2A9Qq5PO5BRLrVfWGPnI3eQu8RkTPgyeUf9ZOWY9JbptVJy9LceAyHRn-O0kbzprx88yb82a5dnCR7EDP7n0)
 
@@ -48,7 +48,7 @@ The `src/layer/custom/new-forward.cu` file contains the code for the programming
 
 ## How to test
 
-Use the `make run` command to test your program which will run your program on a batch size of 1000 images. This will automatically compile your source (equivilent to executing `make m2` and then running `./m2 1000`).
+Use the `make run` command to test your program which will run your program on a batch size of 1000 images. This will automatically compile your source (equivalent to executing `make m2` and then running `./m2 1000`).
 
 ## Test Output 
 
@@ -59,11 +59,11 @@ The accuracy of your implementation should meet the 0.886 that our implementatio
 
 ## Report
 
-In lieu of a quiz, you will submit a brief writeup detailing your optimizations, their motivations, pointers or copy of relevent code, and what they accomplish. This should not be more than 2 pages. Describe where in your code these optimizations exist and the effect that they had on the runtime. 
+In lieu of a quiz, you will submit a brief writeup detailing your optimizations, their motivations, pointers or copy of relevant code, and what they accomplish. This should not be more than 2 pages. Describe where in your code these optimizations exist and the effect that they had on the runtime. 
 
 ## Submission and Grading
 
-Submit the src/layer/custom/new-forward.cu file on gradescope as well as your writeup. This is the only file you should have modifed. The performance of your code will be the basis of 60% of the total grade on PA8, with the remaining 40% accounted for by your writeup. Students with times <= 20 ms will receive full credit. Apart from that, the top 16 students will receive bonus credit for PA8.
+Submit the src/layer/custom/new-forward.cu file on gradescope as well as your writeup. This is the only file you should have modified. The performance of your code will be the basis of 60% of the total grade on PA8, with the remaining 40% accounted for by your writeup. Students with times <= 20 ms will receive full credit. Apart from that, the top 16 students will receive bonus credit for PA8.
 
 ## Credit
 
